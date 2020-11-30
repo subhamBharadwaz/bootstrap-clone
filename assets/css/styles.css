@@ -1,0 +1,62 @@
+/* /////////////// */
+/* Navbar */
+/* ///////////////// */
+
+.navbar {
+  background-color: #7952b3;
+}
+.btn-nav-download {
+  color: #fbda8f;
+  border-color: #fbda8f;
+  transition: all 0.5 ease-in;
+}
+.btn-nav-download:hover {
+  background-color: #fbda8f;
+  color: black;
+}
+.main-btn {
+  background-color: #7952b3;
+  color: #fff;
+}
+.main-btn:hover {
+  background-color: #5d4088;
+  color: #fff;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  color: #fff;
+}
+.icons i {
+  /* padding: 0 px; */
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.circle-half {
+  color: #fff;
+}
+
+.highlight {
+  background-color: #eee;
+  position: relative;
+}
+
+.copy-code {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+
+  font-size: 10px;
+}
+.copy-code-button {
+  padding: 5px;
+}
+
+/* SVGS */
+.round-border {
+  border-radius: 15px;
+}
